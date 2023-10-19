@@ -1,0 +1,11 @@
+
+#include <stdio.h>
+#define PI 3.1416
+int main()
+{
+ double r = 5.20;
+ double area;
+ area=PI*r*r;
+ printf("The given radius is: %.2lf\nThe computed area is: %.2lf",r,area);
+ return 0;
+}
